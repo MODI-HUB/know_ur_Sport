@@ -2,7 +2,9 @@
 import './App.css'
 
 
-import LandingPage from './LandingPage'
+import LandingPage from './LandingPage';
+import Buttons from './Button';
+
 
 function App() {
 
@@ -10,6 +12,7 @@ function App() {
   return (
     <>
       <LandingPage/>
+      <Buttons/>
     </>
   )
 }
